@@ -1,0 +1,22 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9e3e3;
+}
+
+.container {
+    text-align: center;
+}
+
+.headerText {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gifContainer img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
