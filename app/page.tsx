@@ -28,7 +28,11 @@ export default function Home() {
     return (
         <div className={styles.body}>
             <div className={styles.container}>
-                <h1 className={styles.title}>Will you be my Valentine?????</h1>
+                <h1 className={styles.title}>
+                    Halo Anis,
+                    <br />
+                    Will you be my Valentine?????
+                </h1>
                 <div className={styles.buttons}>
                     <button
                         className={styles.yesButton}

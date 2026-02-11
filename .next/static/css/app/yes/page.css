@@ -24,3 +24,46 @@
     height: auto;
 }
 
+.page_whatsappButton__ysqvW {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    padding: 12px 24px;
+    background: #25d366;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+    animation: page_bounce___YKCI 2s infinite;
+}
+
+.page_whatsappButton__ysqvW:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.page_whatsappIcon__PxSBq {
+    width: 36px;
+    height: 36px;
+}
+
+.page_whatsappBubble__iPPk_ {
+    position: relative;
+}
+
+@keyframes page_bounce___YKCI {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
